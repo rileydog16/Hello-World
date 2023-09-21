@@ -1,0 +1,57 @@
+{
+  "id": "project_1",
+  "name": "New Project",
+  "kind": "Project",
+  "properties": {},
+  "elements": [
+    {
+      "id": "app_1",
+      "name": "New App",
+      "kind": "App",
+      "properties": {},
+      "elements": [
+        {
+          "id": "page_1",
+          "name": "Main Page",
+          "kind": "Page",
+          "properties": {},
+          "elements": [
+            {
+              "id": "text_1",
+              "name": "Title",
+              "kind": "Text",
+              "properties": {
+                "content": "The New App",
+                "fontSize": 24
+              }
+            },
+            {
+              "id": "textinput_1",
+              "name": "Name",
+              "kind": "TextInput",
+              "properties": {},
+              "elements": []
+            },
+            {
+              "id": "text_2",
+              "name": "Greeting",
+              "kind": "Text",
+              "properties": {
+                "content": {
+                  "expr": "\"Hello \" + Name"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "_TOOLS",
+      "name": "Tools",
+      "kind": "ToolFolder",
+      "properties": {}
+    }
+  ]
+}
